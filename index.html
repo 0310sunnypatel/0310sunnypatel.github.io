@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Websites</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-image:url(https://source.unsplash.com/npxXWgQ33ZQ);
+			background-size:cover;
+			background-position:center;
+			font-family: 'IBM Plex Mono', monospace;
+			color:white;
+		}
+		h1{
+			text-align:right;
+			font-weight:700;
+		}
+		html{
+			height:100%;
+		}
+		/*a:hover{
+			border:black;
+		}*/
+		.page-header{
+			color:white;
+			padding-top:12px;
+		}
+		.thumbnail {
+   			position: relative;
+    		width: auto;
+   			height: auto;
+		}
+		.thumbnail .after {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    display: none;
+		    color: #FFF;
+		}
+		.thumbnail:hover .after {
+		    display: block;
+		    background: rgba(0, 0, 0, .6);
+		    font-family: 'IBM Plex Mono', monospace;
+			color:white;
+			text-align: center;
+			padding-top:110px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+  			<h1>List of my Projects</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-sm-12">
+				<div class="thumbnail">
+					<a href="imagegallery.html"><img src="imagegallery.png">
+						<div class="after">This is a Demo Image Gallery. You can find amazing pictures over here. Click to visit the site!</div></a>
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-12">
+				<div class="thumbnail">
+					<a href="startup.html"><img src="purrfect.png">
+						<div class="after">This is a Demo Startup website, build for people who are interested to adopt cats. Click to visit the site!</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container about">
+		<div class="row">
+			<div class="col-lg-6 col-sm-6">
+				<div class="thumbnail">
+					<a href="aboutMe.html" target="_blank"><img src="aboutMe.png">
+						<div class="after">Click here to know everything you need to know about the creator of this website.</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
